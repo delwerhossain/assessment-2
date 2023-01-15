@@ -758,3 +758,242 @@ input[type=submit]:hover {
     }
 
 }
+
+
+
+
+
+    /* ------------------------------------
+             part of pad device
+------------------------------------ */
+@media screen and (min-width:577px) and (max-width:992px)  {
+
+
+
+    /* ------------------------------------
+            menu part pad device
+------------------------------------ */
+    .menu-var {
+        /* height: 8.75rem; */
+        /* border: 0.0625rem solid; */
+        padding-left: 1%;
+        padding-right: 1%;
+        flex-direction: column;
+    }
+
+    .menu-part-1 {
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+
+    .menu-part-2 ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        font-size: 1.0625em;
+        color: var(--sec-color);
+        font-weight: 600;
+    }
+
+    .menu-part-2 li:hover {
+        border-radius: 10px;
+        background-color: rgb(255, 205, 140);
+        padding: 5px;
+    }
+
+    /* .banner-details{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    } */
+
+
+    .banner-p-div {
+        margin: 0 0;
+        width: 100%;
+    }
+
+    /* ------------------------------------
+            feature part pad device
+------------------------------------ */
+
+    .banner-h1 ,
+    .banner-h2 {
+        font-weight: 700;
+        font-size: 3em;
+    }
+
+
+    /* ------------------------------------
+            feature part pad device
+------------------------------------ */
+    .feature-part {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .feature-img {
+        display: grid;
+        grid-template-columns: 1fr ,1fr;
+
+    }
+    .feature-img img{
+        width: 100%;
+    } 
+
+    /* ------------------------------------
+            article part pad device
+------------------------------------ */
+.article-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    padding: 10px;
+}
+    .article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .article-part {
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .article-pcs {
+        width: 19rem;
+        height: 10rem;
+    }
+
+    .article-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .article-img img {
+        width: 80%;
+    }
+
+    /* ------------------------------------
+            article detail part pad device
+    ------------------------------------ */
+
+    .year-e-part {
+        left: 10%;
+        top: 0px;
+        width: 10rem;
+        height: 5.625rem;
+        padding: 5px;
+    }
+
+    .year-e {
+        font-weight: 900;
+        font-size: 1.71875em;
+    }
+
+    .year-exp {
+        font-weight: 300;
+        font-size: 1.5em;
+        /* line-height: 160%; */
+    }
+
+    /* ------------------------------------
+            sponsors part pad device
+------------------------------------ */
+
+    .sponsors-img {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 100px);
+    }
+
+    .sponsors-img img {
+        width: 100%;
+    }
+
+    .sponsors-img:hover {}
+
+    /* ------------------------------------
+            facts part pad device
+------------------------------------ */
+    .facts-all {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 2rem;
+        row-gap: 2rem;
+
+    }
+
+    .facts-box {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* --------------------------------------------------- */
+    .facts-p {
+        font-size: 1em;
+        color: var(--sec-color);
+        margin-bottom: 3.125rem;
+    }
+
+    .facts-num {
+        font-weight: 600;
+        font-size: 1.8em;
+
+    }
+
+    .facts-p2 {
+        font-weight: 500;
+        font-size: .8em;
+
+    }
+
+    /* ------------------------------------
+            Footer part pad device
+------------------------------------ */
+
+    .footer-part {
+
+        height: 9.25rem;
+
+    }
+
+    .footer-p {
+
+        font-weight: 300;
+        font-size: 1em;
+        top: 32.5%;
+    }
+
+
+    /* ------------------------------------
+            contact part  pad device
+    ------------------------------------ */
+
+    .contact-part {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding-top: 5%;
+        padding-bottom: 3.25rem;
+    }
+
+    .contact-h1 {
+        font-size: 3em;
+    }
+    .contact-input , .contact-detail {
+        border-radius: 0.3125rem;
+        width: 80%;
+    }
+
+}
