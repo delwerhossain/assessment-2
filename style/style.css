@@ -403,7 +403,7 @@
     /* background-color: #381c44; */
     background-color: #183c5c;
     color: white;
-    width: 90%;
+    width: 100%;
     border-radius: 0.3125rem 0rem 0rem 0.3125rem;
     padding: 1.5em;
 }
@@ -461,6 +461,7 @@
     border-radius: 0rem 0.3125rem 0.3125rem 0rem;
     background-color: rgb(215, 246, 255);
     padding: 1.25rem;
+    width: 100%;
 }
 
 input[type=text],
@@ -750,6 +751,10 @@ input[type=submit]:hover {
 
     .contact-h1 {
         font-size: 2em;
+    }
+    .contact-input , .contact-detail {
+        border-radius: 0.3125rem;
+        width: 80%;
     }
 
 }
