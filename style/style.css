@@ -2,12 +2,14 @@
      all variables and defults
 ------------------------------------ */
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
 
 :root {
     --main-color: black;
     --sec-color: #727272;
     --buttom-color: #FF900E;
+    --bg-color: rgba(255, 144, 14, 0.1);
 }
 
 * {
@@ -18,7 +20,9 @@
 
 .feature,
 .article,
-.facts {
+.facts,
+.sponsors,
+.footer {
     margin-left: 12%;
     margin-right: 12%;
     margin-top: 120px;
@@ -31,7 +35,7 @@
 ------------------------------------ */
 .bg-color {
     /* background: rgba(255, 144, 14, 0.1); */
-    background-color: rgba(255, 144, 14, 0.1);
+    background-color: var(--bg-color);
 }
 
 
@@ -49,7 +53,7 @@
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 53px;
 }
 
@@ -276,22 +280,89 @@
     border: 1.99px solid var(--buttom-color);
     border-radius: 15px;
 }
-.facts-p{
-font-size: 18px;
-line-height: 23px;
-color: var(--sec-color);
-margin-bottom: 50px;
+
+.facts-p {
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--sec-color);
+    margin-bottom: 50px;
 }
-.facts-num{
+
+.facts-num {
     font-weight: 600;
     font-size: 45px;
     line-height: 53px;
     text-align: center;
 }
-.facts-p2{
+
+.facts-p2 {
     font-weight: 600;
     font-size: 18px;
     line-height: 23px;
     color: var(--sec-color);
 
+}
+
+
+/* ------------------------------------
+            sponsors part
+------------------------------------ */
+
+
+.sponsors-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sponsors-detail{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.sponsors-h1{
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 30;
+}
+
+.sponsors-p{
+    color: var(--sec-color);
+
+}
+.sponsors-img{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 150px;
+}
+
+
+/* ------------------------------------
+            Footer part
+------------------------------------ */
+{
+
+}
+.footer-part{
+    
+height: 100px;
+background-color: var(--bg-color);
+margin: 0 auto;
+text-align: center;
+border-radius: 10px;
+
+}
+.footer-p{
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--sec-color);
+    position: relative;
+    top: 32.5%;
 }
