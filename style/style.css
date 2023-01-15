@@ -277,13 +277,21 @@
     border-radius: 15px;
 }
 .facts-p{
-    
-font-weight: 600;
-font-size: 20px;
+font-size: 18px;
 line-height: 23px;
+color: var(--sec-color);
+margin-bottom: 50px;
 }
 .facts-num{
     font-weight: 600;
     font-size: 45px;
     line-height: 53px;
+    text-align: center;
+}
+.facts-p2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--sec-color);
+
 }
