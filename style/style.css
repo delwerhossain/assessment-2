@@ -237,6 +237,10 @@
     margin-bottom: 30px;
 }
 
+.article-img img{
+    /* width: 100%; */
+}
+
 .year-e-part {
     background-color: var(--buttom-color);
     border-radius: 15px;
