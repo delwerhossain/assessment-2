@@ -375,6 +375,7 @@
 .contact-part {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 55%;
     height: 100%;
     margin: 0 auto;
@@ -390,7 +391,7 @@
     /* background-color: #381c44; */
     background-color: #183c5c;
     color: white;
-    width: 100%;
+    width: 90%;
     border-radius: 0.3125rem 0rem 0rem 0.3125rem;
     padding: 1.5em;
 }
@@ -514,41 +515,43 @@ input[type=submit]:hover {
 }
 
 /* ------------------------------------
-            menu part mobile
------------------------------------- */
-.menu-var {
-    /* height: 8.75rem; */
-    /* border: 0.0625rem solid; */
-    padding-left: 1%;
-    padding-right: 1%;
-    flex-direction: column;
-}
-
-.menu-part-1 {
-    font-weight: 700;
-    font-size: 1.2em;
-}
-
-.menu-part-2 ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    font-size: 1.0625em;
-    color: var(--sec-color);
-    font-weight: 600;
-}
-
-.menu-part-2 li:hover {
-    border-radius: 10px;
-    background-color: rgb(255, 205, 140);
-    padding: 5px;
-}
-
-/* ------------------------------------
             media part
 ------------------------------------ */
 
 @media screen and (max-width:576px) {
+
+
+
+    /* ------------------------------------
+            menu part mobile
+------------------------------------ */
+    .menu-var {
+        /* height: 8.75rem; */
+        /* border: 0.0625rem solid; */
+        padding-left: 1%;
+        padding-right: 1%;
+        flex-direction: column;
+    }
+
+    .menu-part-1 {
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+
+    .menu-part-2 ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        font-size: 1.0625em;
+        color: var(--sec-color);
+        font-weight: 600;
+    }
+
+    .menu-part-2 li:hover {
+        border-radius: 10px;
+        background-color: rgb(255, 205, 140);
+        padding: 5px;
+    }
 
     /* .banner-details{
         text-align: center;
@@ -635,6 +638,10 @@ input[type=submit]:hover {
         grid-template-rows: repeat(5, 100px);
     }
 
+
+    /* ------------------------------------
+            facts part moblie
+------------------------------------ */
     .facts-all {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -688,17 +695,20 @@ input[type=submit]:hover {
 
 
     /* ------------------------------------
-            Footer part
+            contact part
     ------------------------------------ */
 
     .contact-part {
         justify-content: center;
         flex-direction: column;
-        width: 55%;
+        width: 100%;
         height: 100%;
         margin: 0 auto;
         padding-top: 5%;
         padding-bottom: 6.25rem;
+    }
+    .contact-h1 {
+        font-size: 2em;
     }
 
 
