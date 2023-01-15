@@ -81,6 +81,11 @@
     margin-bottom: 6.25rem;
 }
 
+.banner-p-div {
+    margin: 0 auto;
+    width: 80%;
+}
+
 .banner-part {
     display: flex;
     flex-direction: column;
@@ -96,8 +101,15 @@
     font-style: normal;
     font-weight: 700;
     font-size: 4em;
-    line-height: 4.6875rem;
 }
+.banner-h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4em;
+    margin-bottom: 10%;
+}
+
 
 .banner-p {
     font-family: 'Work Sans';
@@ -559,6 +571,25 @@ input[type=submit]:hover {
         justify-content: center;
     } */
 
+
+    .banner-p-div {
+        margin: 0 0;
+        width: 100%;
+    }
+
+    /* ------------------------------------
+            feature part moblie
+------------------------------------ */
+
+    .banner-h1 ,
+    .banner-h2 {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2em;
+    }
+
+
     /* ------------------------------------
             feature part moblie
 ------------------------------------ */
@@ -569,8 +600,12 @@ input[type=submit]:hover {
 
     .feature-img {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ,1fr;
+
     }
+    .feature-img img{
+        width: 100%;
+    } 
 
     /* ------------------------------------
             article part moblie
@@ -713,7 +748,7 @@ input[type=submit]:hover {
         padding-bottom: 3.25rem;
     }
 
- .contact-h1 {
+    .contact-h1 {
         font-size: 2em;
     }
 
