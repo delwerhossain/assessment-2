@@ -406,6 +406,7 @@
     width: 100%;
     border-radius: 0.3125rem 0rem 0rem 0.3125rem;
     padding: 1.5em;
+    height: 620px;
 }
 
 .contact-heading {
@@ -462,6 +463,7 @@
     background-color: rgb(215, 246, 255);
     padding: 1.25rem;
     width: 100%;
+    height: 620px;
 }
 
 input[type=text],
@@ -755,6 +757,7 @@ input[type=submit]:hover {
     .contact-input , .contact-detail {
         border-radius: 0.3125rem;
         width: 80%;
+        height: auto;
     }
 
 }
@@ -993,7 +996,8 @@ input[type=submit]:hover {
     }
     .contact-input , .contact-detail {
         border-radius: 0.3125rem;
-        width: 80%;
+        width: 80%;        
+        height: auto;
     }
 
 }
