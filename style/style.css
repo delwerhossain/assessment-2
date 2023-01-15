@@ -13,7 +13,7 @@
 }
 
 * {
-    margin: 0px;
+    margin: 0rem;
     font-family: 'Work Sans', sans-serif;
 
 }
@@ -25,8 +25,8 @@
 .footer {
     margin-left: 12%;
     margin-right: 12%;
-    margin-top: 120px;
-    margin-bottom: 100px;
+    margin-top: 7.5rem;
+    margin-bottom: 6.25rem;
     /* margin: 0 auto; */
 }
 
@@ -43,8 +43,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 140px;
-    /* border: 1px solid; */
+    height: 8.75rem;
+    /* border: 0.0625rem solid; */
     padding-left: 12%;
     padding-right: 12%;
 }
@@ -54,13 +54,13 @@
     font-style: normal;
     font-weight: 700;
     font-size: 2.1875em;
-    line-height: 53px;
+    line-height: 3.3125rem;
 }
 
 .menu-part-2 ul {
     list-style: none;
     display: flex;
-    gap: 80px;
+    gap: 5rem;
     font-size: 1.0625em;
     color: var(--sec-color);
     font-weight: 600;
@@ -71,22 +71,24 @@
 ------------------------------------ */
 .banner {
     /* margin-top: 15%;
-    margin-bottom: 60px; */
+    margin-bottom: 3.75rem; */
     margin-left: 12%;
     margin-right: 12%;
     position: relative;
-    top: 100px;
-    /* bottom: -100px; */
-    padding-bottom: 150px;
-    margin-bottom: 100px;
+    top: 6.25rem;
+    /* bottom: -6.25rem; */
+    padding-bottom: 9.375rem;
+    margin-bottom: 6.25rem;
 }
 
 .banner-part {
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 3.125rem;
     margin: 0 auto;
     text-align: center;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 .banner-h1 {
@@ -94,7 +96,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 4em;
-    line-height: 75px;
+    line-height: 4.6875rem;
 }
 
 .banner-p {
@@ -108,13 +110,11 @@
 }
 
 .banner-buttom {
-    width: 180px;
-    height: 64px;
+    width: 11.25rem;
+    height: 4rem;
     background: var(--buttom-color);
-    border-radius: 8px;
+    border-radius: 0.5rem;
     border: 0;
-    position: relative;
-    left: 40%;
     color: white;
     font-size: 1.25em;
     font-weight: 500;
@@ -128,17 +128,23 @@
 .feature-part {
     margin: 0 auto;
     display: flex;
-    gap: 80px;
+    gap: 5rem;
     align-items: center;
     justify-content: center;
+}
+
+.feature-detail {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
 
 .feature-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    column-gap: 30px;
-    row-gap: 30px;
+    column-gap: 1.875rem;
+    row-gap: 1.875rem;
 
 }
 
@@ -146,12 +152,12 @@
 
     font-weight: 900;
     font-size: 2.8125em;
-    line-height: 53px;
+    line-height: 3.3125rem;
     color: var(--sec-color);
 }
 
 .feature-2 {
-    line-height: 26px;
+    line-height: 1.625rem;
     color: var(--sec-color);
 }
 
@@ -166,10 +172,10 @@
 }
 
 .feature-buttom {
-    width: 180px;
-    height: 64px;
+    width: 11.25rem;
+    height: 4rem;
     background: var(--buttom-color);
-    border-radius: 8px;
+    border-radius: 0.5rem;
     border: 0;
     color: white;
     font-size: 1.25em;
@@ -184,21 +190,21 @@
 
 .article-part {
     display: flex;
-    gap: 100px;
+    gap: 6.25rem;
 }
 
 .article-main {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .article-pcs {
-    width: 500px;
-    height: 120px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.103);
-    padding: 30px 35px;
-    border-radius: 10px;
+    width: 31.25rem;
+    height: 7.5rem;
+    box-shadow: 0 0.1875rem 0.625rem rgba(0, 0, 0, 0.103);
+    padding: 1.875rem 2.1875rem;
+    border-radius: 0.625rem;
     position: relative;
 
 }
@@ -206,31 +212,38 @@
 .article-heading {
     font-weight: 900;
     font-size: 3.125em;
-    line-height: 53px;
+    line-height: 3.3125rem;
     color: #131313;
-    margin-bottom: 30px;
-    padding-left: 15px;
-    border-left: 5px solid var(--buttom-color);
+    margin-bottom: 1.875rem;
+    padding-left: 0.9375rem;
+    border-left: 0.3125rem solid var(--buttom-color);
 
 }
 
 .article-p {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     font-weight: 400;
     font-size: 1em;
     line-height: 162%;
     color: var(--sec-color);
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .year-e-part {
     background-color: var(--buttom-color);
-    border-radius: 15px;
-    width: 320px;
-    height: 180px;
+    border-radius: 0.9375rem;
+    width: 20rem;
+    height: 11.25rem;
     position: relative;
     left: 45%;
-    top: -200px;
+    top: -12.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
 }
 
 .year-e {
@@ -239,13 +252,14 @@
     line-height: 108%;
     text-align: center;
     color: #FFFFFF;
-    padding: 46px;
+    /* padding: 2.875rem; */
 }
 
 .year-exp {
     font-weight: 300;
-    font-size: .5em;
+    font-size: 2em;
     line-height: 160%;
+    color: #FFFFFF;
 }
 
 
@@ -259,26 +273,27 @@
 .facts-heading {
     font-size: 3.25em;
     font-weight: 900;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .facts-all {
     display: flex;
-    column-gap: 100px;
+    column-gap: 6.25rem;
     align-self: center;
     justify-content: center;
 }
 
 .facts-box {
-    /* padding: 55px 60px; */
+    /* padding: 3.4375rem 3.75rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 241.83px;
-    height: 241.83px;
-    border: 1.99px solid var(--buttom-color);
-    border-radius: 15px;
+    width: 15.1144rem;
+
+    height: 15.1144rem;
+    border: 0.1244rem solid var(--buttom-color);
+    border-radius: 0.9375rem;
 }
 
 .facts-box:hover {
@@ -288,22 +303,22 @@
 
 .facts-p {
     font-size: 1.125em;
-    line-height: 23px;
+    line-height: 1.4375rem;
     color: var(--sec-color);
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .facts-num {
     font-weight: 600;
     font-size: 2.8125em;
-    line-height: 53px;
+    line-height: 3.3125rem;
     text-align: center;
 }
 
 .facts-p2 {
     font-weight: 600;
     font-size: 1.125em;
-    line-height: 23px;
+    line-height: 1.4375rem;
     color: var(--sec-color);
 
 }
@@ -323,11 +338,11 @@
 
 .sponsors-detail {
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
     display: flex;
     flex-direction: column;
-    row-gap: 30px;
+    row-gap: 1.875rem;
 }
 
 .sponsors-h1 {
@@ -346,7 +361,7 @@
     align-items: center;
     justify-content: center;
     grid-template-columns: repeat(5, 1fr);
-    column-gap: 150px;
+    column-gap: 9.375rem;
 }
 
 
@@ -364,7 +379,7 @@
     height: 100%;
     margin: 0 auto;
     padding-top: 5%;
-    padding-bottom: 100px;
+    padding-bottom: 6.25rem;
 }
 
 .contact-detail {
@@ -376,7 +391,7 @@
     background-color: #183c5c;
     color: white;
     width: 100%;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 0.3125rem 0rem 0rem 0.3125rem;
     padding: 1.5em;
 }
 
@@ -391,14 +406,14 @@
 .contact-h1 {
     font-size: 4em;
     text-align: center;
-    border-left: 4px solid white;
+    border-left: 0.25rem solid white;
     padding: .5em;
     margin-top: 1em;
 }
 
 .contact-p {
     text-align: center;
-    margin: 10px;
+    margin: 0.625rem;
 
 }
 
@@ -406,12 +421,12 @@
     width: 8em;
     height: 2.5em;
     background: #fc2868;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     border: 0;
     color: white;
     font-size: 1em;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 
 }
 
@@ -430,30 +445,30 @@
     flex-direction: column;
 } */
 .contact-input {
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0rem 0.3125rem 0.3125rem 0rem;
     background-color: rgb(215, 246, 255);
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 input[type=text],
 select,
 textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 4px;
+    padding: 0.75rem;
+    border: 0.0625rem solid rgb(255, 255, 255);
+    border-radius: 0.25rem;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 0.375rem;
+    margin-bottom: 1rem;
     resize: vertical;
 }
 
 input[type=submit] {
     background-color: #fc2868;
     color: white;
-    padding: 12px 20px;
+    padding: 0.75rem 1.25rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     cursor: pointer;
 }
 
@@ -470,11 +485,11 @@ input[type=submit]:hover {
 
 .footer-part {
 
-    height: 100px;
+    height: 6.25rem;
     background-color: var(--bg-color);
     margin: 0 auto;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 
 }
 
@@ -482,8 +497,209 @@ input[type=submit]:hover {
 
     font-weight: 400;
     font-size: 1.25em;
-    line-height: 23px;
+    line-height: 1.4375rem;
     color: var(--sec-color);
     position: relative;
     top: 32.5%;
+}
+
+
+
+/* ------------------------------------
+            hide part
+------------------------------------ */
+
+.hide {
+    display: none;
+}
+
+/* ------------------------------------
+            menu part mobile
+------------------------------------ */
+.menu-var {
+    /* height: 8.75rem; */
+    /* border: 0.0625rem solid; */
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: column;
+}
+
+.menu-part-1 {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.menu-part-2 ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: 1.0625em;
+    color: var(--sec-color);
+    font-weight: 600;
+}
+
+.menu-part-2 li:hover {
+    border-radius: 10px;
+    background-color: rgb(255, 205, 140);
+    padding: 5px;
+}
+
+/* ------------------------------------
+            media part
+------------------------------------ */
+
+@media screen and (max-width:576px) {
+
+    /* .banner-details{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    /* ------------------------------------
+            feature part moblie
+------------------------------------ */
+    .feature-part {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .feature-img {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* ------------------------------------
+            article part moblie
+------------------------------------ */
+    .article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .article-part {
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .article-pcs {
+        width: 19rem;
+        height: 10rem;
+    }
+
+    .article-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .article-img img {
+        width: 80%;
+    }
+
+    /* ------------------------------------
+            article part moblie
+    ------------------------------------ */
+
+    .year-e-part {
+        left: 10%;
+        top: 0px;
+        width: 10rem;
+        height: 5.625rem;
+        padding: 5px;
+    }
+
+    .year-e {
+        font-weight: 900;
+        font-size: 1.71875em;
+    }
+
+    .year-exp {
+        font-weight: 300;
+        font-size: 1.5em;
+        /* line-height: 160%; */
+    }
+
+    /* ------------------------------------
+            sponsors part moblie
+------------------------------------ */
+
+    .sponsors-img {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 100px);
+    }
+
+    .facts-all {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 2rem;
+        row-gap: 2rem;
+
+    }
+
+    .facts-box {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* --------------------------------------------------- */
+    .facts-p {
+        font-size: 1em;
+        color: var(--sec-color);
+        margin-bottom: 3.125rem;
+    }
+
+    .facts-num {
+        font-weight: 600;
+        font-size: 1.8em;
+
+    }
+
+    .facts-p2 {
+        font-weight: 500;
+        font-size: .8em;
+
+    }
+
+    /* ------------------------------------
+            Footer part
+------------------------------------ */
+
+    .footer-part {
+
+        height: 9.25rem;
+
+    }
+
+    .footer-p {
+
+        font-weight: 300;
+        font-size: 1em;
+        top: 32.5%;
+    }
+
+
+    /* ------------------------------------
+            Footer part
+    ------------------------------------ */
+
+    .contact-part {
+        justify-content: center;
+        flex-direction: column;
+        width: 55%;
+        height: 100%;
+        margin: 0 auto;
+        padding-top: 5%;
+        padding-bottom: 6.25rem;
+    }
+
+
 }
