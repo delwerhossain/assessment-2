@@ -634,10 +634,15 @@ input[type=submit]:hover {
 ------------------------------------ */
 
     .sponsors-img {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 100px);
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 100px);
     }
 
+    .sponsors-img img {
+        width: 100%;
+    }
+
+    .sponsors-img:hover {}
 
     /* ------------------------------------
             facts part moblie
@@ -677,7 +682,7 @@ input[type=submit]:hover {
     }
 
     /* ------------------------------------
-            Footer part
+            Footer part moblie
 ------------------------------------ */
 
     .footer-part {
@@ -695,7 +700,7 @@ input[type=submit]:hover {
 
 
     /* ------------------------------------
-            contact part
+            contact part  moblie
     ------------------------------------ */
 
     .contact-part {
@@ -705,11 +710,11 @@ input[type=submit]:hover {
         height: 100%;
         margin: 0 auto;
         padding-top: 5%;
-        padding-bottom: 6.25rem;
-    }
-    .contact-h1 {
-        font-size: 2em;
+        padding-bottom: 3.25rem;
     }
 
+ .contact-h1 {
+        font-size: 2em;
+    }
 
 }
